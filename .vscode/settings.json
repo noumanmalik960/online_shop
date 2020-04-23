@@ -1,0 +1,7 @@
+{
+    "git.enabled": false,
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "myenv/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
