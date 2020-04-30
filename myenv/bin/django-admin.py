@@ -1,4 +1,4 @@
-#!/home/nouman/Documents/test/myenv/bin/python
+#!/home/nouman/Documents/online_shop/test/myenv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":
