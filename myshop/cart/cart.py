@@ -4,7 +4,8 @@ from shop.models import Product
 
 
 
-class Cart():
+class Cart(object):
+# If we remove this 'object' parent class, it works the same
     
     def __init__(self, request):
         """

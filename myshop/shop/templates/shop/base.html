@@ -9,6 +9,8 @@
 </head>
 
 <body>
+
+
     <div id="header"> <a href="/" class="logo">My shop</a> </div>
     <div id="subheader">
         <div class="cart">
@@ -24,9 +26,12 @@
               {% endif %}
             {% endwith %}
         </div>
+        <a href="{% url 'orders:login' %}">LOGIN</a>
+
     </div>
     <div id="content">
         {% block content %}
+
         {% endblock %}
     </div>
 </body>

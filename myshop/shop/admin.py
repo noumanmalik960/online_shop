@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Product, Category
+from orders.admin import export_to_csv
 
 
 
@@ -14,3 +15,4 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ['available', 'created', 'updated']
     list_editable = ['price', 'available']
     prepopulated_fields = {'slug': ('name', )}
+    actions = [export_to_csv]

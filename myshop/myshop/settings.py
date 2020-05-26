@@ -158,3 +158,8 @@ Configuration.configure(
     BRAINTREE_PUBLIC_KEY,
     BRAINTREE_PRIVATE_KEY
 )
+
+
+#  For WeasyPrint
+#  since we need to use the static_root settings, we have to add it to our project. this is the project's path for static files to reside
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
